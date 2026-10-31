@@ -76,3 +76,10 @@ customers = {
 }
 
 }
+
+for customer , customer_info in customers.items():
+    print(f"\tCustomer username: {customer}")
+    full_names = f"{customer_info["first_name"]} {customer_info["last_name"]}"
+    credit_score = customer_info["credit_score"]
+    account_number = customer_info["account_number"]
+    
