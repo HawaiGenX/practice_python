@@ -14,7 +14,7 @@ customers = {
     "has_loan": False,
 },
     
-"customer_2 " : {
+"customer_2" : {
     "customer_id": "C1001",
     "first_name": "Maria",
     "last_name": "Lopez",
@@ -60,7 +60,7 @@ customers = {
     "has_loan": True,
 },
 
-"customer_5 " : {
+"customer_5" : {
     "customer_id": "C1005",
     "first_name": "Emily",
     "last_name": "Brooks",
