@@ -78,7 +78,7 @@ customers = {
 }
 print("\n")
 for customer , customer_info in customers.items():
-    print(f"Customer username: {customer}")
+    print(f"Customer username: {customer.strip()}")
     full_names = f"{customer_info['first_name']} {customer_info['last_name']}"
     credit_score = customer_info["credit_score"]
     account_number = customer_info["account_number"]
