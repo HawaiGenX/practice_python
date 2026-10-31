@@ -18,19 +18,12 @@ for alien in aliens[:3]:
         alien["points"] = 10
     elif alien["color"]=="yellow":
         alien["color"] = "red"
-        alien["speed"] = "faster"
+        alien["speed"] = "super fast"
         alien["points"] = 15
 # PRINT ONLY 5 OUT 30 ALIENS
 for alien in aliens[:5]:
     print(alien)
 print(".......")
 
-# PRINT ONLY 5 OUT 30 ALIENS
-for alien in aliens[:5]:
-    print(alien)
-print(".......")
 
-# PRINT ONLY 5 OUT 30 ALIENS 
-for alien in aliens[:5]:
-    print(alien)
-print(".......")
+
