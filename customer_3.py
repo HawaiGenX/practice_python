@@ -71,5 +71,15 @@ customers = {
     },
 }
 
-customer_info = input("Enter customer username: ")
-
+customer_info = customers["customer_5"]
+print("Customer username: customer_5")
+for key, value in customer_info.items():
+    labels = key.replace("_", " ").title() #redifining the keys
+    if key == "balance":
+        print(f"\t{labels}: {value}")
+    elif key == "has_loan":
+        print(f"\t{labels}: {'yes' if value else 'no'}")
+    elif key in ("date_of_birth", "address"):
+        continue
+    else:
+        print(f"\t{labels}: {value}")
