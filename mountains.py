@@ -240,7 +240,8 @@ mountains = {
         "seven_summits": True,  # Some Seven Summits lists use Kosciuszko, others Puncak Jaya
     },
 }
-print("Mountain information is:")
+print("\n")
+print("African mountain information:")
 for mountain, mountain_info in mountains.items():
     if mountain_info["continent"]== "Africa":
         if mountain_info["seven_summits"]== True:
@@ -248,5 +249,5 @@ for mountain, mountain_info in mountains.items():
             for key, value in mountain_info.items():
                 labels = key.replace("_", " ")
                 print(f"\t{labels}: {value}")
-                
+print("\n")                
         
