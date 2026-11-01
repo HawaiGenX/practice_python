@@ -242,9 +242,11 @@ mountains = {
 }
 print("Mountain information is:")
 for mountain, mountain_info in mountains.items():
-    for key, value in mountain_info.items():
-        labels = key.replace("_", " ").title()
-        if key == "country" and mountain_info["continent"] == "Africa":
-            print(f"\t{labels}: {value}")
-        else:
-            print(f"\t{labels}: {value}")
+    if mountain_info["continent"]== "Africa":
+        if mountain_info["seven_summits"]== True:
+            print(f"{mountain}:")
+            for key, value in mountain_info.items():
+                labels = key.replace("_", " ")
+                print(f"\t{labels}: {value}")
+                
+        
