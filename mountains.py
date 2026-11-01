@@ -252,8 +252,11 @@ for mountain, mountain_info in mountains.items():
 print("\n")                
 for mountain, mountain_info in mountains.items():
     if mountain_info["is_volcano"]== True:
-        if mountain_info["elevation_m"]>=50000:
-            print(f"Mountain information: {mountain}") 
+        if mountain_info["elevation_m"]>=5500:
+            print()
+            print(f"Mountain information: {mountain}")
+            print() 
             for key, value in mountain_info.items():
                 labels =key.replace("_", " ")
                 print(f"\t {labels}: {value}")       
+print("\n")
