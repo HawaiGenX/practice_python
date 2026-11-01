@@ -72,7 +72,7 @@ customers = {
 }
 #RETRIEVING ONE CUSTOMER'S INFO
 print("\n")
-customer_info = customers["customer_5"]
+customer_info = customers["customer_5"] #Create a variable 
 print(customer_info)
 print("\n")
 print("Customer username: customer_5")
