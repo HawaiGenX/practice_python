@@ -71,4 +71,5 @@ customers = {
     },
 }
 
-customer_info = customers["customer_5"]
+customer_info = input("Enter customer username: ")
+
