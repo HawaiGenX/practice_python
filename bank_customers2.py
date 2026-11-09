@@ -65,3 +65,13 @@ customers = {
         "has_loan": False,
     },
 }
+
+#total customers 
+total_customers = len(customers)
+
+#display customer's details
+names = list(customers.keys())
+count = 0
+
+while count < total_customers:
+    
