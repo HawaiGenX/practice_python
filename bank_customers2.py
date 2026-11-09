@@ -74,4 +74,15 @@ names = list(customers.keys())
 count = 0
 
 while count < total_customers:
+    customers_keys = names[count]
+    customer_details = customers[customers_keys]
+    print(f"\n{customers_keys}")
     
+    keys = list(customer_details.keys())
+    k = 0
+    
+    while k < len(keys):
+        print(f"{keys[k]}: {customer_details[keys[k]]}")
+        
+        k+=1
+    count+=1
